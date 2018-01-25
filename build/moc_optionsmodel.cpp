@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'optionsmodel.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.5.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'optionsmodel.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.7.1. It"
+#error "This file was generated using the moc from 5.5.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -101,42 +101,36 @@ void OptionsModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
             typedef void (OptionsModel::*_t)(int );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&OptionsModel::displayUnitChanged)) {
                 *result = 0;
-                return;
             }
         }
         {
             typedef void (OptionsModel::*_t)(qint64 );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&OptionsModel::transactionFeeChanged)) {
                 *result = 1;
-                return;
             }
         }
         {
             typedef void (OptionsModel::*_t)(qint64 );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&OptionsModel::reserveBalanceChanged)) {
                 *result = 2;
-                return;
             }
         }
         {
             typedef void (OptionsModel::*_t)(bool );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&OptionsModel::coinControlFeaturesChanged)) {
                 *result = 3;
-                return;
             }
         }
         {
             typedef void (OptionsModel::*_t)(int );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&OptionsModel::darksendRoundsChanged)) {
                 *result = 4;
-                return;
             }
         }
         {
             typedef void (OptionsModel::*_t)(int );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&OptionsModel::AnonymizePlutusAmountChanged)) {
                 *result = 5;
-                return;
             }
         }
     }
